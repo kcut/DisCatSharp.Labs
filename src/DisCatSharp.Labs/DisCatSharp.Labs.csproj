@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../Wumpus.Net.targets"/>
+  
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <AssemblyName>DisCatSharp.Labs</AssemblyName>
+    <PackageTags>discord;discordapp;wumpus;gateway;websocket;rest;api;bot;rogueexception;dsharpplus;discatsharp;</PackageTags>
+    <Description>The future of Discord token logger</Description>
+    <Authors>Kim Chaek University</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus.Labs" Version="0.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="DisCatSharp.Common\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Remove="DisCatSharp.Common\**" />
+  </ItemGroup>
+</Project>

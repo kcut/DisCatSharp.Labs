@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33B4D3E0-E156-4FEC-AB5E-21D53FD218AB}"
+	ProjectSection(SolutionItems) = preProject
+		src\Wumpus.Net.targets = src\Wumpus.Net.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisCatSharp.Labs", "src\DisCatSharp.Labs\DisCatSharp.Labs.csproj", "{07299F0C-D0E6-4716-B713-77878B310307}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07299F0C-D0E6-4716-B713-77878B310307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07299F0C-D0E6-4716-B713-77878B310307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07299F0C-D0E6-4716-B713-77878B310307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07299F0C-D0E6-4716-B713-77878B310307}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07299F0C-D0E6-4716-B713-77878B310307} = {33B4D3E0-E156-4FEC-AB5E-21D53FD218AB}
+	EndGlobalSection
+EndGlobal

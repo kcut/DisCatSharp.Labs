@@ -1,0 +1,3 @@
+[submodule "src/DisCatSharp.Labs/DisCatSharp.Common"]
+	path = src/DisCatSharp.Labs/DisCatSharp.Common
+	url = https://github.com/Emzi0767/Common
